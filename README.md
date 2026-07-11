@@ -37,13 +37,9 @@ Dibuat untuk **Mission 13: Native Power App**.
 
 > Ganti placeholder di bawah ini dengan screenshot asli dari HP fisikmu sebelum submit.
 
-| Priming Screen | Dialog Izin Native |
-|---|---|
-| ![Home](./assets/home.jpeg) | ![Dialog](./assets/izin.jpeg) |
-
-| List Jurnal | Penolakan Izin |
-|---|---|
-| ![List](./assets/list.jpeg) | ![Izin](./assets/Izin.jpeg) |
+| Priming Screen | Dialog Izin Native | List Jurnal | Penolakan Izin |
+|---|---|---|---|
+| ![Home](./assets/home.jpeg) | ![Dialog](./assets/izin.jpeg) | ![List](./assets/list.jpeg) | ![Izin](./assets/izin.jpeg) |
 
 ---
 
