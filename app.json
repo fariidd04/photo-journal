@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Photo Journal",
+    "slug": "photo-journal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#2E5C8A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.farid.photojournal",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Photo Journal menggunakan kamera untuk mengambil foto langsung sebagai bagian dari catatan harianmu.",
+        "NSPhotoLibraryUsageDescription": "Photo Journal menggunakan galeri untuk memilih foto yang sudah ada sebagai bagian dari catatan harianmu.",
+        "NSPhotoLibraryAddUsageDescription": "Photo Journal dapat menyimpan foto yang kamu ambil ke galeri HP-mu."
+      }
+    },
+    "android": {
+      "package": "com.farid.photojournal",
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Photo Journal menggunakan galeri untuk memilih foto yang sudah ada sebagai bagian dari catatan harianmu.",
+          "cameraPermission": "Photo Journal menggunakan kamera untuk mengambil foto langsung sebagai bagian dari catatan harianmu."
+        }
+      ]
+    ]
+  }
+}
